@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	    * {padding: 0;margin: 0;}
+	    .pagenew {
+	    	text-align: center;
+	    	font-size: 0;
+	    }
+	    .page-prve,
+	    .current,
+	    a {
+	    	padding: 5px 7px;
+	    	margin-left: 10px;
+	    	border: 1px solid #ff6500;
+	    	font-size: 18px;
+	    }
+	    a {
+	    	text-decoration: none;
+	    	color: #ffe346;
+
+
+	    }
+	    .current {
+	    	color:#ff6500;
+	    	background:#ffbe94;
+	    }
+	    .page-prve {
+	    	border: 1px solid  #ffe346;
+	    	color: #ffe346;
+	    }
+	    a:hover {
+	    	background:#ffbe94;
+	    }
+        /*箭头向上*/
+        .arrow-left {
+        	display: inline-block;
+        	width: 0;
+        	height: 0;
+            border:8px solid rgba(255, 0, 0, 0);
+            border-right-color:#FDC131;
+        }
+        .arrow-right {
+        	display: inline-block;
+	    	width: 0;
+	    	height: 0;
+	        border: 8px solid rgba(255, 0, 0, 0);
+	        border-left-color: #FDC131;
+	        border-top-color: #FDC131;
+	        border-right-color: #FDC131;
+		}
+	</style>
+     
+</head>
+<body>
+	<div class="pagenew">
+		<span class="page-prve"><span class="arrow-left"></span>上一页</span>
+		<span class="current">1</span>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+		<a href="#">6</a>
+		<a href="#">199</a>
+		<a href="#">200</a>
+		<a href="#">下一页<span class="arrow-right"></span></a>
+	</div>
+	
+</body>
+</html>
